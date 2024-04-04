@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .button{
@@ -10,10 +11,26 @@ body{
     height: 40px;
     border: solid;
     border-radius: 5px;
-    border-color: black;
+    border-color: white;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+
+.button-operation{
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 5px;
+    border-color: orange;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
 }
 
 .button-zero{
@@ -21,10 +38,13 @@ body{
     height: 40px;
     border: solid;
     border-radius: 5px;
-    border-color: black;
+    border-color: white;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+
 }
 
 .button-container{
@@ -41,12 +61,29 @@ body{
     border: solid;
     border-radius: 5px;
     border-color: black;
+    background-color: black;
     padding: 5px;
+
 }
 .layout-screen{
-
     border: solid;
     border-radius: 5px;
     border-color: black;
+    background-color: lightgrey;
     padding: 30px;
+    
+}
+
+.clearCalc{
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
 }
