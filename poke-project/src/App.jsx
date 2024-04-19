@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import ScreenPokemones from './Components/screenPokemones';
-import BattleScreen from './Components/BattleScreen';
+import ScreenPokemones from './components/screenPokemones';
+import BattleScreen from './components/BattleScreen';
 
 function App() {
   const [pokemones, setPokemones] = useState('');
@@ -82,7 +82,7 @@ function App() {
   const handleAttack = () =>{
     const enemyAttack = enemyHealth - Math.floor(Math.random()*100)
     const enemyH = enemyAttack <= 0 ? 0 : enemyAttack
-    const myAttack = myHealth - Math.floor(Math.random()*100)
+    const myAttack = myHealth - Math.floor(Math.random()*40)
     const myH = myAttack <= 0 ? 0: myAttack
     setenemyHealth(enemyH);
     setmyHealth(myH);
@@ -99,7 +99,7 @@ function App() {
   return (
     <>
       <div className="main-container">
-        <h1>Hola mundo</h1>
+        <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pokémon_logo.svg/1280px-International_Pokémon_logo.svg.png'width={400}/>
         {/* screen */}
         <div className="layout-game">
           <div className="container-screen">

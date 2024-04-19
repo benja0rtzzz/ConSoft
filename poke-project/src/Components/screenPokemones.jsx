@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-
 import './screenPokemones.css';
+
 const ScreenPokemones = ({ pokemones, position }) => {
   console.log({ pokemones });
   return (
